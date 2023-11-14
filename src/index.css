@@ -1,0 +1,39 @@
+*{
+  margin: 0 auto;
+  width: auto;
+  height: auto;
+}
+
+/* Path: src/App.css */
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  
+}
+
+button {
+  margin: 0 5px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  background-color: #fff;
+  cursor: pointer;
+  width: 100px;
+}
+
+button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.selected {
+  background-color: blue;
+  color: #fff;
+}
+
+.wrong {
+  background-color: #ff0000;
+  color: #fff;
+}
